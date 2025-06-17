@@ -1,0 +1,212 @@
+<!DOCTYPE html> 
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sobre Mim</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Bebas Neue', sans-serif;
+      background-color: #ffffff31;
+      color: #333;
+      line-height: 1.6;
+      cursor: url(amongus.png), auto;
+    }
+
+    .container, header, footer {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-radius: 10px;
+    }
+
+    .logo {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 15px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .perfil {
+      display: flex;
+      align-items: center;
+      padding: 20px 0;
+    }
+
+    .foto-perfil {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+
+    .galeria {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      padding: 20px 0;
+      justify-content: center;
+    }
+
+    .galeria img {
+      width: 200px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .cachorro-bloco {
+      display: flex;
+      align-items: center;
+      padding: 20px 0;
+      gap: 20px;
+    }
+
+    .cachorro-bloco img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 15px;
+    }
+
+    footer {
+      background-color: #333;
+      color:white;
+      text-align: center;
+      margin-top: 40px;
+      border-radius: 10px;
+    }
+
+    h2 {
+      margin-top: 0; 
+    }
+
+    section {
+      padding: 20px;
+      margin-top: 30px;
+      border-radius: 15px;
+      color: #333;
+    }
+
+    #inicio {
+      background-color: #d9f0ff; 
+    }
+
+    #lembrancas {
+      background-color: #ffd9d9; 
+    }
+
+    #cachorro {
+      background-color: #d9ffd9;
+    }
+
+    #amigos {
+      background-color: #fff2cc; 
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="Foto de cabeçalho.jpeg" alt="Minha Foto" class="logo" />
+    <nav>
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#lembrancas">Boas Lembranças</a></li>
+        <li><a href="#cachorro">Meu Cachorro</a></li>
+        <li><a href="#amigos">Lembranças com Amigos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section id="inicio">
+      <div class="perfil">
+        <img src="Perfil.jpeg" alt="Minha Foto" class="foto-perfil" />
+        <div class="info">
+          <h4>Nome: Heitor Fontana</h4>
+          <h4>Idade: 15 anos</h4>
+          <h4>Origem: Maringá PR</h4>
+          <h4>Profissão: Estudante</h4>
+        </div>
+      </div>
+    </section>
+
+    <section id="lembrancas">
+      <h2>Boas Lembranças</h2>
+      <div class="galeria">
+        <img src="sorveteria.jpeg" title="Sorveteria-Argentina" alt="sorveteria" />
+        <img src="BK.jpeg" title="Almoço no BK" alt="BK" />
+        <img src="missão Frino.jpeg" title="Fazendo o culto-Frino" alt="Frino" />
+        <img src="Frino.jpeg" title="Mural de despedida-Frino" alt="Frino" />
+      </div>
+    </section>
+
+    <section id="cachorro">
+      <h2>Meu Cachorro</h2>
+      <div class="cachorro-bloco">
+        <img src="pandora.jpeg" title="Arthur & Heitor e Pandora" alt="Meu cachorro" />
+        <div class="texto">
+          <h3>Pandora</h3>
+          <h4>
+            Ela era muito amorosa, brincalhona e viveu até 2023. Sempre será
+            lembrada!
+          </h4>
+        </div>
+      </div>
+    </section>
+
+    <section id="amigos">
+      <h2>Lembranças com Amigos</h2>
+      <div class="galeria">
+        <img src="4ano.jpeg" title="4°ano" alt="4°ano" />
+        <img
+          src="1° festa do pijama.jpeg"
+          title="Festa do pijama com velhos amigos"
+          alt="festa do pijama"
+        />
+        <img
+          src="Festa do pijama.jpeg"
+          title="Festa do pijama com velhos amigos"
+          alt="festa do pijama"
+        />
+        <img src="Aventureiros.jpeg" title="Aventureiros com o Ryan" alt="Aventureiros" />
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <p>Copyright © Todos os direitos reservados @ 2025</p>
+  </footer>
+</body>
+</html>
